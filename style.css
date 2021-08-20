@@ -1,0 +1,91 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.logo{
+    display: block;
+}
+.logo img {
+    width: 100px;
+    display: block;
+    margin: 0 0 0 10%;
+}
+.menu-content {
+
+}
+.menu-content .menu {
+
+}
+.menu-content .menu ul{
+    list-style: none;
+    position: absolute;
+    right: 10%;
+    top:10px;
+}
+.menu-content .menu ul li{
+    margin-right: 20px;
+    display: inline-block;
+    color: rgb(136, 134, 134);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.menu-content .menu ul li a{
+}
+.content-left {
+    margin-left: 10%;
+    margin-top: 8%;
+    display: inline-block;
+}
+.content-left h1 {
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif;
+    line-height: 10px;
+    color: rgb(67, 69, 71);
+}
+.content-left p {
+    color: #036635;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.content-left .about p {
+    color: grey;
+    width: 450px;
+    text-align:justify;
+    height: calc(100% - 200px);
+}
+.content-left .btn-learn-more{
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 25px;
+    width: 150px;
+    background-color: #036635;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    color: white;
+    border: none;
+}
+.content-rigth{
+    float: right;
+    display: inline-block;
+    margin-right: 10%;
+}
+.content-rigth  .copo{
+    transform: rotate(-15deg);
+    position: absolute;
+    transition: 2s;
+    animation: anime 2s  0.4s;
+}
+@keyframes anime {
+        from {top: 200px;}
+        to {top: 0px;}
+    
+}
+.content-rigth .efeito{
+    background-color: #036635;
+    height: 700px;
+    width: 700px;
+    border-radius:50% ;
+    position: absolute;
+    bottom: -200px;
+    right: -150px;
+}
