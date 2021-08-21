@@ -12,12 +12,6 @@ html, body {
     display: block;
     margin: 0 0 0 10%;
 }
-.menu-content {
-
-}
-.menu-content .menu {
-
-}
 .menu-content .menu ul{
     list-style: none;
     position: absolute;
@@ -29,8 +23,6 @@ html, body {
     display: inline-block;
     color: rgb(136, 134, 134);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-.menu-content .menu ul li a{
 }
 .content-left {
     margin-left: 10%;
@@ -66,10 +58,10 @@ html, body {
 }
 .content-rigth{
     float: right;
-    display: inline-block;
     margin-right: 10%;
+    width: 100%;
 }
-.content-rigth  .copo{
+.content-rigth .copo{
     transform: rotate(-15deg);
     position: absolute;
     transition: 2s;
@@ -82,8 +74,8 @@ html, body {
 }
 .content-rigth .efeito{
     background-color: #036635;
-    height: 700px;
-    width: 700px;
+    height: 100%;
+    width: 50%;
     border-radius:50% ;
     position: absolute;
     bottom: -200px;
